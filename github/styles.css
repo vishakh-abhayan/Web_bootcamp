@@ -1,0 +1,40 @@
+/* Basic styling, you can customize it further */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body h2 {
+  margin: 40px;
+}
+header {
+  background-color: #373737;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.repo-card {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  margin: 50px;
+}
+
+/* Add more styling as needed */
